@@ -1,0 +1,149 @@
+body{
+    background-color: black;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+h1{
+    color: blue;
+}
+.titulo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 73px;
+}
+
+h2{
+    color: white;
+}
+
+h4{
+    color: white
+
+}
+
+.subtitulo{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 61px;
+    font-family: 'IBM Plex Sans';
+    font-style: normal;
+
+}
+.box_perfis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.perfis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+    
+}
+.perfil{
+    width: 160px;
+    overflow: hidden;
+}
+.perfil:hover{
+    border: 1px solid;
+    border-color: white;
+}
+.perfil img{
+    max-width: 100%;
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+    border-color: #ffff;
+    
+}
+.perfil:hover img {
+	transform: scale(1.2);
+    
+}
+.perfil-add{
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1E1E20; 
+}
+.perfil-add img {
+    width: 54px;
+    height: 54px;
+    background: #6F6F70;
+}
+.perfil-add:hover {
+    border: 1px solid;
+    border-color: white;
+}
+.perfil-add:hover img{
+    max-width: 100%;
+	transition: all 0.3s;
+    background-color: #ffff;
+    
+}
+.nomes_perfis{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.nomes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 700px;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    padding-bottom: 102px; 
+}
+.gerenciarperfis{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+
+}
+
+.botao-gerenciar {
+    background-color: black;
+    border: 1px solid #ffff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #ffff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: 'IBM Plex Sans',sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0;
+    outline: none;
+    padding: 13px 23px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+    user-select: none;
+    -webkit-user-select: none;
+    width: auto;
+
+}
+button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.4s;
+
+}
+
+
+
+
+
